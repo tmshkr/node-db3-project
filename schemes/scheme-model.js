@@ -25,6 +25,11 @@ function findSteps(id) {
     .orderBy("st.step_number");
 }
 
-function add() {}
+function add(schemeData) {
+  return db("schemes")
+    .insert(schemeData, "id")
+    .then(([id]) => findById(id));
+}
+
 function update() {}
 function remove() {}
