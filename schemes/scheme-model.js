@@ -38,4 +38,6 @@ function update(stepData, id) {
     .then(() => findById(id));
 }
 
-function remove() {}
+function remove(id) {
+  return db("schemes").where({ id }).del();
+}
