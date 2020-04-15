@@ -31,5 +31,11 @@ function add(schemeData) {
     .then(([id]) => findById(id));
 }
 
-function update() {}
+function update(stepData, id) {
+  return db("schemes")
+    .where({ id })
+    .update(stepData)
+    .then(() => findById(id));
+}
+
 function remove() {}
