@@ -82,8 +82,8 @@ The following endpoints are available to test the functionality of the model met
 ## Stretch Problems
 
 -   In [SQL Try Editor at W3Schools.com](https://www.w3schools.com/Sql/tryit.asp?filename=trysql_select_top):
-    -   Displays CategoryName and a new column called Count that shows how many products are in each category. Shows 8 records.
-    -   Display OrderID and a column called ItemCount that shows the total number of products placed on the order. Shows 196 records.
+    - [x] Displays CategoryName and a new column called Count that shows how many products are in each category. Shows 8 records.
+    - [x] Display OrderID and a column called ItemCount that shows the total number of products placed on the order. Shows 196 records.
 -   Add the following method to your API
-    - [x]  `addStep(step, scheme_id)`: This method expects a step object and a scheme id. It inserts the new step into the database, correctly linking it to the intended scheme.
-    - [x]  You may use `POST /api/schemes/:id/steps` to test this method.
+    - [x] `addStep(step, scheme_id)`: This method expects a step object and a scheme id. It inserts the new step into the database, correctly linking it to the intended scheme.
+    - [x] You may use `POST /api/schemes/:id/steps` to test this method.
